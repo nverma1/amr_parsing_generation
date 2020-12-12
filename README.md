@@ -41,11 +41,13 @@ Please feel free to email Neha Verma (neha.verma@yale.edu).
 
 ### AMR Parsing
 * AMR Parsing via Graph-Sequence Iterative Inference (_ACL_ 2020) [[paper](https://www.aclweb.org/anthology/2020.acl-main.119.pdf)] [[GitHub](https://github.com/jcyk/AMR-gs)]
-* The Role of Reentrancies in Abstract Meaning Representation Parsing (_EMNLP_ 2020) [[paper](https://www.aclweb.org/anthology/2020.findings-emnlp.199.pdf)]
+* The Role of Reentrancies in Abstract Meaning Representation Parsing (_EMNLP_ 2020) [[paper](https://www.aclweb.org/anthology/2020.findings-emnlp.199.pdf)] [[GitHub](https://github.com/mdtux89/amr-reentrancies)]
 * AMR Parsing as Sequence to Graph Transduction (_ACL_ 2019) [[paper](https://www.aclweb.org/anthology/P19-1009.pdf)][[GitHub](https://github.com/sheng-z/stog)]
 * A Transition-based Algorithm for AMR Parsing (_NAACL_ 2015) [[paper](https://www.aclweb.org/anthology/N15-1040.pdf)] [[GitHub](https://github.com/c-amr/camr)]
 * A Discriminative Graph-Based Parser for the Abstract Meaning Representation (_ACL_ 2014) [[paper](https://www.aclweb.org/anthology/P14-1134.pdf)] [[GitHub](https://github.com/jflanigan/jamr)]
-
+* Cross-Lingual Abstract Meaning Representation Parsing (_NAACL_ 2018) [[paper](https://www.aclweb.org/anthology/N18-1104.pdf)]
+* An Incremental Parser for Abstract Meaning Representation
+(_EACL_ 2017)[[paper](https://www.aclweb.org/anthology/E17-1051.pdf)] [[GitHub](https://github.com/mdtux89/amr-eager)]
 
 ### AMR Generation
 * Investigating Pretrained Language Models for Graph-to-Text Generation (2020) [[paper](https://arxiv.org/pdf/2007.08426v1.pdf)] [[GitHub](https://github.com/UKPLab/plms-graph2text)]
