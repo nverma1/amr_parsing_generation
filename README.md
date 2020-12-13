@@ -14,7 +14,6 @@ Please feel free to email Neha Verma (neha.verma@yale.edu).
   - [Foundations of AMR](#foundations-of-amr)
   - [AMR Parsing](#amr-parsing)
   - [AMR Generation](#amr-generation)
-  - [Miscellaneous](#miscellaneous)
 - [Datasets](#datasets)
 - [Tools](#tools)
 
@@ -36,27 +35,32 @@ Please feel free to email Neha Verma (neha.verma@yale.edu).
 * Abstract Meaning Representation for Sembanking (_ACL_ 2013) [[paper](https://www.aclweb.org/anthology/W13-2322.pdf)]
 * Smatch: an Evaluation Metric for Semantic Feature Structures (_ACL_ 2013) [[paper](https://www.aclweb.org/anthology/P13-2131/)]
 * The Proposition Bank: An Annotated Corpus of Semantic Roles (_Computational Linguistics_ 2005) [[paper](https://www.aclweb.org/anthology/J05-1004.pdf)]
-* SemEval-2016 Task 8: Meaning Representation Parsing (_SemEval_ 2016) [[paper](https://www.aclweb.org/anthology/S16-1166.pdf)]
 * SemEval-2017 Task 9: Abstract Meaning Representation Parsing and Generation (_SemEval_ 2017) [[paper](https://www.aclweb.org/anthology/S17-2090.pdf)]
+* SemEval-2016 Task 8: Meaning Representation Parsing (_SemEval_ 2016) [[paper](https://www.aclweb.org/anthology/S16-1166.pdf)]
+
 
 ### AMR Parsing
 * AMR Parsing via Graph-Sequence Iterative Inference (_ACL_ 2020) [[paper](https://www.aclweb.org/anthology/2020.acl-main.119.pdf)] [[GitHub](https://github.com/jcyk/AMR-gs)]
 * The Role of Reentrancies in Abstract Meaning Representation Parsing (_EMNLP_ 2020) [[paper](https://www.aclweb.org/anthology/2020.findings-emnlp.199.pdf)] [[GitHub](https://github.com/mdtux89/amr-reentrancies)]
 * AMR Parsing as Sequence to Graph Transduction (_ACL_ 2019) [[paper](https://www.aclweb.org/anthology/P19-1009.pdf)][[GitHub](https://github.com/sheng-z/stog)]
-* A Transition-based Algorithm for AMR Parsing (_NAACL_ 2015) [[paper](https://www.aclweb.org/anthology/N15-1040.pdf)] [[GitHub](https://github.com/c-amr/camr)]
-* A Discriminative Graph-Based Parser for the Abstract Meaning Representation (_ACL_ 2014) [[paper](https://www.aclweb.org/anthology/P14-1134.pdf)] [[GitHub](https://github.com/jflanigan/jamr)]
 * Cross-Lingual Abstract Meaning Representation Parsing (_NAACL_ 2018) [[paper](https://www.aclweb.org/anthology/N18-1104.pdf)]
 * An Incremental Parser for Abstract Meaning Representation
 (_EACL_ 2017)[[paper](https://www.aclweb.org/anthology/E17-1051.pdf)] [[GitHub](https://github.com/mdtux89/amr-eager)]
+* Neural AMR: Sequence-to-Sequence Models for Parsing and Generation (_ACL_ 2017) [[paper](https://www.aclweb.org/anthology/P17-1014.pdf)] [[GitHub](https://github.com/sinantie/NeuralAmr)]
+* A Transition-based Algorithm for AMR Parsing (_NAACL_ 2015) [[paper](https://www.aclweb.org/anthology/N15-1040.pdf)] [[GitHub](https://github.com/c-amr/camr)]
+* A Discriminative Graph-Based Parser for the Abstract Meaning Representation (_ACL_ 2014) [[paper](https://www.aclweb.org/anthology/P14-1134.pdf)] [[GitHub](https://github.com/jflanigan/jamr)]
+
 
 ### AMR Generation
 * Investigating Pretrained Language Models for Graph-to-Text Generation (2020) [[paper](https://arxiv.org/pdf/2007.08426v1.pdf)] [[GitHub](https://github.com/UKPLab/plms-graph2text)]
+* Lightweight, Dynamic Graph Convolutional Networks for AMR-to-Text Generation (_EMNLP_ 2020) [[paper](https://www.aclweb.org/anthology/2020.emnlp-main.169.pdf)] [[GitHub](https://github.com/yanzhangnlp/LDGCNs)]
+* GPT-too: A language-model-first approach for AMR-to-text generation (_ACL_ 2020) [[paper](https://www.aclweb.org/anthology/2020.acl-main.167.pdf)] [[GitHub](https://github.com/IBM/GPT-too-AMR2text)]
 * AMR-To-Text Generation with Graph Transformer (_TACL_ 2020) [[paper](https://www.aclweb.org/anthology/2020.tacl-1.2.pdf)] [[GitHub](https://github.com/sodawater/GraphTransformer)]
+* A Graph-to-Sequence Model for AMR-to-Text Generation (_ACL_ 2018)
+[[paper](https://www.aclweb.org/anthology/P18-1150.pdf)] [[GitHub](https://github.com/freesunshine0316/neural-graph-to-seq-mp)]
+* Neural AMR: Sequence-to-Sequence Models for Parsing and Generation (_ACL_ 2017) [[paper](https://www.aclweb.org/anthology/P17-1014.pdf)] [[GitHub](https://github.com/sinantie/NeuralAmr)]
 * Generation from Abstract Meaning Representation using Tree Transducers (_NAACL_ 2016) [[paper](https://www.aclweb.org/anthology/N16-1087.pdf)]
 * Generating English from Abstract Meaning Representations (_ACL_ 2016) [[paper](https://www.aclweb.org/anthology/W16-6603.pdf)]
-
-
-### Miscellaneous
 
 ## Datasets
 * AMR Annotation Release 1.0 (LDC2014T12) [[link](https://catalog.ldc.upenn.edu/LDC2014T12)]
@@ -65,6 +69,7 @@ Please feel free to email Neha Verma (neha.verma@yale.edu).
 * Chinese AMR (CAMR) Bank [[link](https://www.cs.brandeis.edu/~clp/camr/camr.html)]
 * The Little Prince Corpus v3.0 [[link](https://amr.isi.edu/download/amr-bank-struct-v3.0.txt)]
 * Bio AMR Corpus v3.0 [[link](https://amr.isi.edu/download/2018-01-25/amr-release-bio-v3.0.txt)]
+* English Gigaword (commonly used for augmentation) [[link](https://catalog.ldc.upenn.edu/LDC2003T05)]
 
 ## Tools
 * Penman Python library [[GitHub](https://github.com/goodmami/penman/)]
